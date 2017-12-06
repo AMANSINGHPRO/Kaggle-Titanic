@@ -5,8 +5,8 @@ library(RColorBrewer)
 
 
 
-train <- read.csv("C:/Users/Aman/Desktop/Titanic/train_titanic.csv")
-test <- read.csv("C:/Users/Aman/Desktop/Titanic/test_titanic.csv")
+train <- read.csv("C:/Users/Aman/Desktop/Titanic/Kaggle-Titanic/train_titanic.csv")
+test <- read.csv("C:/Users/Aman/Desktop/Titanic/Kaggle-Titanic/test_titanic.csv")
 
 my_tree_two <- rpart(Survived ~ Pclass + 
                        Sex + 
